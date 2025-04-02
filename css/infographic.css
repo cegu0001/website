@@ -31,3 +31,12 @@
   margin: 0 0 1.2rem 0;
   padding: 0;
 }
+#headCircle:hover {
+  fill: black;
+}
+#neckCircle:hover {
+  fill: black;
+}
+#handsCircle:hover {
+  fill: black;
+}

@@ -1,7 +1,7 @@
 :root {
   /* Colours */
   --primary-bg-color: #e5e2e2; /* used */
-  --primary-font-color: #474d52; /* used */
+  --primary-font-color: #000000; /* used */
 
   --secondary-bg-color: #5d656c; /* used */
   --secondary-font-color: #d5e5f4; /* used */
@@ -53,7 +53,7 @@
   --cta-text-color-inverted: #bbc3ca;
   --followup-text-color: #000000;
   --followup-text-color-inverted: #000000;
-  --formfield-text-color: #575c61;
+  --formfield-text-color: #000000;
   --form-submit-color: #bbc3ca;
   --form-submit-color-inverted: #bbc3ca;
   --info-text-color: #000000;

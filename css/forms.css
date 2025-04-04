@@ -1,7 +1,10 @@
-#webform {
+/* #webform {
   background-color: var(--form-background-color);
+} */
+#webform {
+  display: grid;
+  padding-left: 2em;
 }
-
 #form-section,
 #form-summary {
   background-color: var(--info-background-color);
@@ -29,4 +32,30 @@
   line-height: 1.3;
   margin: 0 0 1.2rem 0;
   padding: 0;
+}
+#forms {
+  display: grid;
+  width: 60%;
+}
+#kt {
+  width: 100%;
+}
+textarea {
+  width: 350px;
+  height: 170px;
+}
+#fullname {
+  width: 200px;
+}
+#date {
+  width: 200px;
+}
+#place {
+  width: 200px;
+}
+#kt {
+  margin-bottom: 0.5rem;
+}
+#harduset {
+  margin-left: 2rem;
 }

@@ -29,15 +29,39 @@
       <h1>INDBERET</h1>
       <section id="form-section">
         <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
+          <h2 id="harduset">Har du set en heks??</h2>
         </article>
-        <form id="webform"></form>
+        <form id="webform">
+          <div id="forms">
+            <label for="fullname">Dit fulde navn</label>
+            <input id="fullname" name="fname" type="text" />
+            <label for="date">Hvornår så du heksen?</label>
+            <input type="date" id="date" name="dato" min="2000-01-01" max="2025-04-25" />
+            <label for="place">Hvor befandt du dig?</label>
+            <input id="place" name="sted" type="text" />
+          </div>
+
+          <p>Hvilke kendetegn havde heksen?</p>
+          <div id="kt">
+            <input id="kendetegn" name="kendetegn1" type="checkbox" />
+            <label for="kendetegn">Kendetegn1</label>
+          </div>
+          <div id="kt">
+            <input id="kendetegn" name="kendetegn2" type="checkbox" />
+            <label for="kendetegn">Kendetegn2</label>
+          </div>
+          <div id="kt">
+            <input id="kendetegn" name="kendetegn3" type="checkbox" />
+            <label for="kendetegn">Kendetegn3</label>
+          </div>
+        </form>
       </section>
       <section id="form-summary">
-        <h2>Summary</h2>
+        <h2>Beskriv dit møde med heksen</h2>
         <article>
-          <p class="placeholder">Opsummering</p>
+          <p class="placeholder">Brug så mange detaljer som muligt</p>
+          <label for="beskrivelse"></label>
+          <textarea name="beskrivelse" id="beskrivelse"></textarea>
         </article>
       </section>
     </main>

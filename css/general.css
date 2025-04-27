@@ -28,7 +28,7 @@ footer {
 }
 #main-disclamer {
   height: 180px;
-  background-color: var(--header-background-color);
+  background-color: var(--header-background-color2);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -123,6 +123,9 @@ nav a:hover {
 nav a:active {
   color: var(--active-color);
 }
+.menuItem {
+  background-color: #fffae2;
+}
 
 /* FOOTER */
 footer a {
@@ -137,4 +140,8 @@ footer a {
 }
 .green {
   background-color: var(--info-bg-color-green);
+}
+.img1 {
+  width: 300px;
+  height: auto;
 }

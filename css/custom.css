@@ -61,7 +61,8 @@
   /* Background colors */
   --logotype-background-color: #000000;
   --header-background-color: #6f90eb;
-  --article-background-color: #dbdde3;
+  --header-background-color2: #ff4b00;
+  --article-background-color: #ffffff;
   --news-background-color: #dbdde3;
   --news-background-color-inverted: #eeebe9;
   --info-background-color: #ffffff;
@@ -72,7 +73,7 @@
   --bodytext-bg-color-inverted: #dbdde3;
   --cta-text-bg-color: #dbdde3;
   --cta-text-bg-color-inverted: #dbdde3;
-  --followup-text-bg-color: #fffae2;
+  --followup-text-bg-color: #ff4b00;
   --followup-text-bg-color-inverted: #dbdde3;
   --form-background-color: #c5c7ce;
   --form-text-color: #dbdde3;
